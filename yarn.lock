@@ -9466,6 +9466,11 @@ mimic-response@^1.0.0, mimic-response@^1.0.1:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
+mimic@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/mimic/-/mimic-2.0.9.tgz#82bf87dc6aacbb30d7e6c657005fb2b2d6882abc"
+  integrity sha512-9l3dnDztx2XJFIoo8+D6ybmeFQlG0ObCij2Lae6qd707vm37bAO+x9HqW6SyT3tUfG/b4i3Y5b5R8ve9EF+c0w==
+
 min-document@^2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
