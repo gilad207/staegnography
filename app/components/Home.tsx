@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Button, Input, Switch, TextField} from '@material-ui/core'
 import DragNDrop from './DragNDrop'
-
+import ImageUploader from './ImageUploader'
 export default function Home(): JSX.Element {
 
   const [afterSubmit, setAfterSubmit] = useState(true)
@@ -13,8 +13,8 @@ export default function Home(): JSX.Element {
         Image Steganography
       </div>
 
-      <div style={{width:'80%', padding:'60px',display:'flex', flexDirection:'column'}}>
-      <DragNDrop/>
+      <div style={{width:'80%', padding:'40px',display:'flex', flexDirection:'column'}}>
+      <ImageUploader/>
         <div style={{marginTop:'20px'}}>
         <span style={{fontSize:'20px'}}>encrypt</span>
         <Switch checked={isEncrypt} onChange={()=>{setIsEncrypt(!isEncrypt)}} />
